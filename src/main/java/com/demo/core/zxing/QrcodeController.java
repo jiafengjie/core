@@ -37,7 +37,7 @@ public class QrcodeController {
         Result result = com.whyhow.util.QRCodeUtil.zxingCodeAnalyze("L:\\aa.jpg");
         System.err.println("二维码解析内容："+result.toString());
     }
-    @RequestMapping("/get")
+    @RequestMapping("/getimg")
     public void analysiscode(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setCharacterEncoding("utf-8");
         //生成二维码图片
