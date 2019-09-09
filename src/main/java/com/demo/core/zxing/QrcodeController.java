@@ -28,7 +28,7 @@ public class QrcodeController {
     @RequestMapping("/test")
     public String test() {
 
-        return "dddddddddd";
+        return "dddddddddd33333333333";
         }
 
     @RequestMapping("/analysiscode")
